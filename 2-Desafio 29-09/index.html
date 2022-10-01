@@ -4,31 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio DOM y Eventos - ARGENTUM</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
-    <script src="44465-AlmadaLucas.js"></script>
-    <script defer src="stock.js"></script>
-    <script defer src="modal.js"></script>
-    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>ARGENTUM</title>
 </head>
 <body>
-    <header>
-        <h1 id="titulo" class="titulo">ARGENTUM</h1>
-        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
-    </header>
-
-    <main id="contenedor-productos"></main>
-
-    <div class="modal-contenedor">
-        <div class="modal-carrito">
-            <h3>Carrito</h3>
-            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
-            <div id="carrito-contenedor">
-            </div>
-            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
-            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
-        </div>
+    <header><h1>ARGENTUM</h1></header>
+    <div id="div"></div>
+    <div>
+        <input type="text" id="inputBuscador">
+        <button id="botonBuscador">Buscar</button>
     </div>
+
+    <button id="carrito">Mostrar Carrito</button>
+    <script src="./index.js"></script>
 </body>
 </html>
